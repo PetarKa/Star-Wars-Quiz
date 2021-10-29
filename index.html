@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Star Wars Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+        <div class="title">STAR WARS QUIZ</div>
+        <div id="question" class="question"></div>
+        <label class="option">
+            <input type="radio" name="option" />
+            <span class="option1"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" />
+            <span class="option2"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" />
+            <span class="option3"></span>
+        </label>
+        <label class="option">
+            <input type="radio" name="option" />
+            <span class="option4"></span>
+        </label>
+        <!-- Buttons -->
+        <div class="controls">
+            <button class="previous">Previous</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+
+    <div class="result" id="rez">
+
+    </div>
+
+    <script src=questions.js></script>
+    <script src="script.js"></script>
+</body>

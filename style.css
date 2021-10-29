@@ -1,0 +1,122 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    line-height: 1.7rem;
+    background-image: url('imgs/Star-wars-logo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.quiz-container {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px white;
+    padding: 3rem;
+    text-shadow: 0 1px #00000010;
+    width: 60%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.3), rgba(255,255,255,1));
+}
+
+.title {
+    color: #00000050;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.question {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+  }
+
+  .option {
+    padding: 1rem;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+
+  .option:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  .controls > * {
+    margin: 1rem;
+  }
+
+  button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-weight: 300;
+    color: white;
+    outline: none;
+    transform: scale(0.98);
+    transition: all 0.2s;
+  }
+
+  button.previous {
+    background: #c84630;
+  }
+  button.next {
+    background: #3c91e6;
+  }
+
+  button.restart {
+    background: #0cf574;
+    color: #00000050;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    transition: all 0.4s;
+    align-self: center;
+  }
+  button.restart:hover {
+    color: #00000098;
+  }
+  button:hover,
+  button:focus {
+    transform: scale(1);
+    font-weight: 500;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  }
+  .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    font-size: 2.5rem;
+  }
+  .final-score {
+    color: #000000ee;
+    align-self: center;
+    flex-wrap: nowrap;
+  }
+  .summary {
+    font-size: 0.5em;
+    text-shadow: 1px 1px #ffffff50;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.877);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em 3em 0em 3em;
+    margin-top: 2em;
+    margin-bottom: 2rem;
+  }
+  .summary h1 {
+    align-self: center;
+  }
+
+  .summary p{
+      margin-bottom: 8em;
+  }
